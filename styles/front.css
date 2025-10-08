@@ -1,0 +1,18 @@
+
+:root {
+  --color-bg: #fff;
+  --color-text: #111;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.card {
+  background: #fff;
+  color: #111;
+  border: 1px solid #ddd;
+  padding-top: 8px;
+  box-shadow: 4px 4px 8px #ccc;
+}
