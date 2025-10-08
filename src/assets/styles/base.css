@@ -1,13 +1,20 @@
 /**
- * 🧩 역할: 전역 스타일 레이어
- * 🎯 목적: 토큰 import 및 전역 배경/폰트 설정
+ * 🧩 역할: 전역 토큰 → 컴포넌트 변수 브릿지
+ * 🎯 목적: 컴포넌트가 전역 토큰에 직접 의존하지 않도록 분리
  */
 @import './tokens/index.css';
 
+/* component-level variable defaults */
+:root {
+  --card-padding-top: var(--space-8);
+  --card-shadow-color: var(--color-shadow);
+}
+
 body {
   margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif;
   background: var(--color-bg);
   color: var(--color-text);
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif;
   font-size: var(--font-size-base);
+  line-height: var(--font-line-height);
 }

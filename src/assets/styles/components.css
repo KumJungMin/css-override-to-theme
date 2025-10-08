@@ -1,9 +1,13 @@
+/**
+ * 🎨 역할: UI 컴포넌트 스타일 정의
+ * 🎯 목적: 컴포넌트 전용 변수(--card-*) 기반으로 스타일 적용
+ */
 .card {
   background: var(--color-bg);
   color: var(--color-text);
   border: 1px solid var(--color-border);
-  padding-top: var(--space-8);
-  box-shadow: 4px 4px 8px var(--color-shadow);
+  padding-top: var(--card-padding-top);
+  box-shadow: 4px 4px 8px var(--card-shadow-color);
   margin: 16px;
   border-radius: 8px;
 }
