@@ -1,0 +1,13 @@
+/**
+ * 🧩 역할: 전역 스타일 레이어
+ * 🎯 목적: 토큰 import 및 전역 배경/폰트 설정
+ */
+@import './tokens/index.css';
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif;
+  font-size: var(--font-size-base);
+}

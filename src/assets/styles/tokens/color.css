@@ -1,0 +1,10 @@
+/**
+ * 🎨 역할: 색상 관련 디자인 토큰
+ * 🎯 목적: 서비스 전역 색상 팔레트 정의
+ */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #111111;
+  --color-border: #dddddd;
+  --color-shadow: #cccccc;
+}

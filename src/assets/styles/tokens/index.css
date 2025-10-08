@@ -1,0 +1,7 @@
+/**
+ * 📚 역할: 토큰 모음의 진입점
+ * 🎯 목적: base.css에서 import하여 한 번에 로드
+ */
+@import './color.css';
+@import './spacing.css';
+@import './typography.css';

@@ -1,0 +1,8 @@
+/**
+ * 📏 역할: 여백/간격 토큰
+ * 🎯 목적: 공통 spacing scale 관리
+ */
+:root {
+  --space-8: 8px;
+  --space-12: 12px;
+}
