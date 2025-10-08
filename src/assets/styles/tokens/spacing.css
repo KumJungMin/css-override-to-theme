@@ -1,6 +1,10 @@
 /**
- * 📏 역할: 여백/간격 토큰
- * 🎯 목적: 공통 spacing scale 관리
+ * 📏 역할: 간격 관련 디자인 토큰
+ * 🎯 목적: padding, margin, gap 등 UI 전체의 공간 단위 정의
+ *
+ * 사용 예시:
+ *   var(--space-8)  → 8px
+ *   var(--space-12) → 12px
  */
 :root {
   --space-8: 8px;

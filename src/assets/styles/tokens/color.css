@@ -1,6 +1,12 @@
 /**
  * 🎨 역할: 색상 관련 디자인 토큰
- * 🎯 목적: 서비스 전역 색상 팔레트 정의
+ * 🎯 목적: 모든 테마의 컬러 팔레트 정의 (semantic naming)
+ *
+ * 사용 예시:
+ *   var(--color-bg) → 배경색
+ *   var(--color-text) → 텍스트색
+ *   var(--color-border) → 테두리색
+ *   var(--color-shadow) → 그림자색
  */
 :root {
   --color-bg: #ffffff;

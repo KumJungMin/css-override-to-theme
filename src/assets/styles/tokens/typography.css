@@ -1,7 +1,12 @@
 /**
- * 🅰️ 역할: 타이포그래피 토큰
- * 🎯 목적: 폰트 크기와 기본 라인 높이 정의
+ * 🅰️ 역할: 폰트 및 타이포그래피 토큰
+ * 🎯 목적: 폰트 크기, 계층 구조 정의
+ *
+ * 사용 예시:
+ *   var(--font-size-base) → 기본 본문 크기
  */
 :root {
   --font-size-base: 14px;
+  --font-size-heading: 18px;
+  --font-line-height: 1.6;
 }
