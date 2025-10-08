@@ -1,12 +1,17 @@
 /**
- * 🌈 역할: Service B 전용 테마 변수 덮기
- * 🎯 목적: 전역 토큰이 아닌 컴포넌트 변수만 교체
+ * 🌈 역할: Service B 전용 테마 변수
  */
 [data-theme="service-b"] {
-  --color-bg: red;
-  --color-text: #f2f2f2;
+  --color-bg: #fff6f6;
+  --color-text: #1a1a1a;
 
-  /* component-specific overrides */
-  --card-padding-top: var(--space-12);
-  --card-shadow-color: #d4f2f2;
+  /* Card */
+  --comp-card-padding-top: var(--space-12);
+  --comp-card-shadow-color: #f2c8c8;
+  --comp-card-header-bg: #ffebeb;
+  --comp-card-header-text: #333333;
+
+  /* Modal */
+  --comp-modal-bg: #fff0f0;
+  --comp-modal-overlay-color: rgba(255, 0, 0, 0.3);
 }
