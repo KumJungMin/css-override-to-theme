@@ -4,10 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Before - Override Conflict</title>
+  <!-- 🎨 Preload: design tokens (CSS 변수 선언) & reset(만약 있다면) -->
+  <link rel="stylesheet" href="/src/assets/styles/base.css" />
+
+  <title>After - Optimize CSS using theme</title>
 </head>
 <body>
   <div id="app"></div>
+  <!-- 🔹 유틸리티와 컴포넌트는 JS에서 로드 -->
   <script type="module" src="/src/main.ts"></script>
 </body>
 </html>

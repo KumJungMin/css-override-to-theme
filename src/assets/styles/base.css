@@ -1,0 +1,15 @@
+/**
+ * 🧩 역할: 전역 토큰 → 컴포넌트 변수 브릿지
+ * 🎯 목적: 컴포넌트가 전역 토큰에 직접 의존하지 않도록 분리
+ */
+@import './tokens/design/index.css';
+@import './tokens/ui/index.css';
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+  line-height: var(--font-line-height);
+}

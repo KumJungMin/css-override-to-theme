@@ -1,0 +1,20 @@
+// component-tokens.css는 “design token → UI token”을 연결하는 adapter layer에 해당합니다.
+// 그래서 component-tokens.css은 tokens 폴더에 두면, 계층이 섞여서 “토큰 정의”와 “토큰 사용”의 경계가 흐려집니다.
+
+/**
+ * 🧱 역할: 컴포넌트 UI 토큰
+ * 🎯 목적: 디자인 토큰을 컴포넌트별 구체 변수로 매핑
+ * 💡 규칙: --comp-[컴포넌트명]-[속성명]
+ */
+:root {
+  /* Card */
+  --comp-card-padding-top: var(--space-8);
+  --comp-card-shadow-color: var(--color-shadow);
+  --comp-card-header-bg: var(--color-bg);
+  --comp-card-header-text: var(--color-text);
+
+  /* Modal */
+  --comp-modal-bg: var(--color-bg);
+  --comp-modal-overlay-color: rgba(0, 0, 0, 0.6);
+  --comp-modal-padding: var(--space-12);
+}

@@ -1,0 +1,21 @@
+/**
+ * 🎨 역할: 실제 UI 컴포넌트 스타일 정의
+ */
+
+/* Card */
+.card {
+  background: var(--comp-card-header-bg);
+  color: var(--comp-card-header-text);
+  border: 1px solid var(--color-border);
+  padding-top: var(--comp-card-padding-top);
+  box-shadow: 4px 4px 8px var(--comp-card-shadow-color);
+  margin: var(--space-16);
+  border-radius: 8px;
+}
+
+/* Modal */
+.modal {
+  background: var(--comp-modal-bg);
+  padding: var(--comp-modal-padding);
+  box-shadow: 0 0 12px var(--comp-modal-overlay-color);
+}

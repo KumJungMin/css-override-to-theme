@@ -1,0 +1,10 @@
+{
+  "name": "@company/style-order-guard",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./vite": "./src/vite/index.ts",
+    "./eslint": "./src/eslint/index.js",
+    "./config": "./src/config/order.js"
+  }
+}

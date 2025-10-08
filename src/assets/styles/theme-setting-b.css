@@ -1,0 +1,17 @@
+/**
+ * 🌈 역할: Service B 전용 테마 변수
+ */
+[data-theme="service-b"] {
+  --color-bg: #fff6f6;
+  --color-text: #1a1a1a;
+
+  /* Card */
+  --comp-card-padding-top: var(--space-12);
+  --comp-card-shadow-color: #f2c8c8;
+  --comp-card-header-bg: #ffebeb;
+  --comp-card-header-text: #333333;
+
+  /* Modal */
+  --comp-modal-bg: #fff0f0;
+  --comp-modal-overlay-color: rgba(255, 0, 0, 0.3);
+}
